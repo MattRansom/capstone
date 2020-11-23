@@ -1,13 +1,13 @@
 import pyshark
 from prettytable import PrettyTable
 import pyfiglet
-#import cap2.py
 
 from testing import *
 from admin import *
 
 #pip3 install PrettyTable
 #pip3 install pyshark
+#pip3 install pyfiglet
 
 #list of dictionaries used to catalog
 #the list of unique IP's and their corresponding ports
@@ -38,7 +38,6 @@ while(start):
     " for System Administration, " +Y+"3"+N+" to exit program: ")
 
     if setting == "1":
-
         # add testing module here\
         runTest()
         #print( R + "GO TO TESTING MODULE" + N)
